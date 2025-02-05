@@ -1282,6 +1282,7 @@ a {
   height: 200px;
 } */
 
+
 /* ------ Quantity ------*/
 .product-quantity .qty-number {
   margin-right: 20px;
@@ -1597,4 +1598,9 @@ a.btn-link.text-light:after {
   background-position: center;
   background-size: cover;
   transition: transform .3s ease-out;
+}
+
+
+.post-image img {
+  height: 200px !important;
 }
