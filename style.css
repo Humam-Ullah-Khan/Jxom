@@ -727,7 +727,7 @@ a {
 }
 
 .image-zoom-effect:hover .image-holder {
-  transform: scale(0.95);
+  transform: scale(0.99);
 }
 
 .image-zoom-effect img {
