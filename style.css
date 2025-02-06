@@ -138,6 +138,19 @@ a {
   max-width: 1800px;
 }
 
+/* sticky-top */
+
+.sticky-top {
+  height: 80px;
+}
+
+@media only screen and (max-width: 786px) {
+  .sticky-top {
+    height: fit-content;
+    margin-top: -10px !important;
+  }
+}
+
 /* Dropdown */
 .dropdown-menu {
   --bs-dropdown-border-radius: 0;
@@ -646,7 +659,7 @@ a {
 ------------------------------------------------------------- */
 .icon-arrow {
   position: absolute;
-  top: 50%;
+  top: 30%;
   font-size: 2em;
   color: var(--dark-color);
   z-index: 8;
@@ -681,7 +694,7 @@ a {
     width: 50px;
     height: 50px;
     opacity: 4;
-    top: 48%;
+    top: 35%;
     border: 1px solid #848484;
   }
 

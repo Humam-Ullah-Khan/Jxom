@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zylo - Fashion Blog</title>
+    <title>Zylo - Fashion Contact</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,10 +24,42 @@
         rel="stylesheet">
 </head>
 
+<style>
+    .wishlist-section {
+        padding: 60px 0;
+    }
+
+    .wishlist-card {
+        background: #ffffff;
+        padding: 7px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .wishlist-card img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px;
+    }
+
+    .btn-custom {
+        background-color: #ffffff;
+        border: 1.5px solid black;
+        color: black;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    .btn-custom:hover {
+        background-color: #000;
+        color: #ffffff;
+    }
+</style>
+
 <body class="homepage">
-
-
-
 
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -157,9 +189,6 @@
     </svg>
 
 
-
-
-
     <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
 
     <div class="search-popup">
@@ -204,52 +233,52 @@
     </div>
 
 
-
     <!-- Clicking On Cart Navbar Item  -->
-    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart"
+        aria-labelledby="My Cart">
         <div class="offcanvas-header justify-content-center">
-          <button type="button" class="btn-close me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div class="order-md-last">
-            <h4 class="d-flex align-items-center mb-3">
-              <span class="text-primary">Your cart</span>
-              <span class="badge bg-primary rounded-pill ms-auto">3</span>
-            </h4>
-            <ol class="list-group list-group-numbered mb-3">
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Hair Dryier</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">2,010</span>
-              </li>
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Embroidered Suit</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">3,200</span>
-              </li>
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Unstitched Dhanak</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">3,500</span>
-              </li>
-              <li class="list-group-item d-flex">
-                <span>Total (PKR)</span>
-                <strong class="ms-auto">8,710.00</strong>
-              </li>
-            </ol>
-    
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to Checkout</button>
-          </div>
-        </div>
-      </div>
+            <div class="order-md-last">
+                <h4 class="d-flex align-items-center mb-3">
+                    <span class="text-primary">Your cart</span>
+                    <span class="badge bg-primary rounded-pill ms-auto">3</span>
+                </h4>
+                <ol class="list-group list-group-numbered mb-3">
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Hair Dryier</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">2,010</span>
+                    </li>
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Embroidered Suit</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">3,200</span>
+                    </li>
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Unstitched Dhanak</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">3,500</span>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <span>Total (PKR)</span>
+                        <strong class="ms-auto">8,710.00</strong>
+                    </li>
+                </ol>
 
-    <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light sticky-top text-uppercase fs-6 p-3 border-bottom align-items-center">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center w-100">
 
@@ -336,73 +365,34 @@
     </nav>
 
 
-    <!-- Blog Section -->
-    <section class="blog py-5 bg-light">
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-                <h4 class="text-uppercase">Read Blog Posts</h4>
-                <a href="blog.html" class="btn-link">View All</a>
-            </div>
+    <!-- Wishlist Section -->
+    <section class="container-fluid bg-light pb-5">
+        <div class="container wishlist-section">
+            <h2 class="text-center mb-5">Your Wishlist</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="blog.html">
-                                <img src="images/Blog-image-1.jpeg" alt="image" class="post-grid-image w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2023</span>
-                            </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="blog.html">How to look outstanding in pastel</a>
-                            </h5>
-                            <p>Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...
-                            </p>
-                        </div>
-                    </article>
+                    <div class="wishlist-card">
+                        <img src="./images/product-1.webp" alt="Product Image">
+                        <h5 class="mt-3">Product Name</h5>
+                        <p>$49.99</p>
+                        <button class="btn btn-custom">Add to Cart</button>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="blog.html">
-                                <img src="images/Blog-image-2.webp" alt="image" class="post-grid-image img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2024</span>
-                            </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="shop.html">Top 10 fashion trend for summer</a>
-                            </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
-                        </div>
-                    </article>
+                    <div class="wishlist-card">
+                        <img src="./images/Accessories-product-2.webp" alt="Product Image" width="100%">
+                        <h5 class="mt-3">Product Name</h5>
+                        <p>$59.99</p>
+                        <button class="btn btn-custom">Add to Cart</button>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="index.html">
-                                <img src="images/Blog-image-3.jpg" alt="image" class="post-grid-image img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2025</span>
-                            </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="index.html">Crazy fashion with unique moment</a>
-                            </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
-                        </div>
-                    </article>
+                    <div class="wishlist-card">
+                        <img src="./images/product-15.webp" alt="Product Image">
+                        <h5 class="mt-3">Product Name</h5>
+                        <p>$39.99</p>
+                        <button class="btn btn-custom">Add to Cart</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zylo - Fashion Blog</title>
+    <title>Zylo - Fashion Contact</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,71 @@
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
         rel="stylesheet">
 </head>
+
+<style>
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-form {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info {
+        background: #222;
+        color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-custom {
+        background-color: #ff4081;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    .btn-custom:hover {
+        background-color: #e6006f;
+    }
+
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-form {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info {
+        background: transparent;
+        color: #222;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-custom {
+        background-color: #000000;
+        color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        transition: all 0.3s;
+    }
+
+    .btn-custom:hover {
+        background-color: #fff;
+        outline: 1.5px solid black;
+        color: #000000 !important;
+    }
+</style>
 
 <body class="homepage">
 
@@ -206,48 +271,49 @@
 
 
     <!-- Clicking On Cart Navbar Item  -->
-    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart"
+        aria-labelledby="My Cart">
         <div class="offcanvas-header justify-content-center">
-          <button type="button" class="btn-close me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div class="order-md-last">
-            <h4 class="d-flex align-items-center mb-3">
-              <span class="text-primary">Your cart</span>
-              <span class="badge bg-primary rounded-pill ms-auto">3</span>
-            </h4>
-            <ol class="list-group list-group-numbered mb-3">
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Hair Dryier</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">2,010</span>
-              </li>
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Embroidered Suit</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">3,200</span>
-              </li>
-              <li class="list-group-item d-flex lh-sm">
-                <div>
-                  <h6 class="my-0">Unstitched Dhanak</h6>
-                  <small class="text-body-secondary">Brief description</small>
-                </div>
-                <span class="text-body-secondary ms-auto">3,500</span>
-              </li>
-              <li class="list-group-item d-flex">
-                <span>Total (PKR)</span>
-                <strong class="ms-auto">8,710.00</strong>
-              </li>
-            </ol>
-    
-            <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to Checkout</button>
-          </div>
+            <div class="order-md-last">
+                <h4 class="d-flex align-items-center mb-3">
+                    <span class="text-primary">Your cart</span>
+                    <span class="badge bg-primary rounded-pill ms-auto">3</span>
+                </h4>
+                <ol class="list-group list-group-numbered mb-3">
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Hair Dryier</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">2,010</span>
+                    </li>
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Embroidered Suit</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">3,200</span>
+                    </li>
+                    <li class="list-group-item d-flex lh-sm">
+                        <div>
+                            <h6 class="my-0">Unstitched Dhanak</h6>
+                            <small class="text-body-secondary">Brief description</small>
+                        </div>
+                        <span class="text-body-secondary ms-auto">3,500</span>
+                    </li>
+                    <li class="list-group-item d-flex">
+                        <span>Total (PKR)</span>
+                        <strong class="ms-auto">8,710.00</strong>
+                    </li>
+                </ol>
+
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to Checkout</button>
+            </div>
         </div>
-      </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
         <div class="container-fluid">
@@ -336,73 +402,42 @@
     </nav>
 
 
-    <!-- Blog Section -->
-    <section class="blog py-5 bg-light">
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
-                <h4 class="text-uppercase">Read Blog Posts</h4>
-                <a href="blog.html" class="btn-link">View All</a>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="blog.html">
-                                <img src="images/Blog-image-1.jpeg" alt="image" class="post-grid-image w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2023</span>
+    <!-- contact Section -->
+    <section class="container-fluid pb-5">
+        <div class="container contact-section">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <h4>Send Us a Message</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your name" required>
                             </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="blog.html">How to look outstanding in pastel</a>
-                            </h5>
-                            <p>Dignissim lacus,turpis ut suspendisse vel tellus.Turpis purus,gravida orci,fringilla...
-                            </p>
-                        </div>
-                    </article>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom">Send Message</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="blog.html">
-                                <img src="images/Blog-image-2.webp" alt="image" class="post-grid-image img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2024</span>
-                            </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="shop.html">Top 10 fashion trend for summer</a>
-                            </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="post-item">
-                        <div class="post-image">
-                            <a href="index.html">
-                                <img src="images/Blog-image-3.jpg" alt="image" class="post-grid-image img-fluid">
-                            </a>
-                        </div>
-                        <div class="post-content d-flex flex-wrap gap-2 my-3">
-                            <div class="post-meta text-uppercase fs-6 text-secondary">
-                                <span class="post-category">Fashion /</span>
-                                <span class="meta-day"> jul 11, 2025</span>
-                            </div>
-                            <h5 class="post-title text-uppercase">
-                                <a href="index.html">Crazy fashion with unique moment</a>
-                            </h5>
-                            <p>Turpis purus, gravida orci, fringilla dignissim lacus, turpis ut suspendisse vel
-                                tellus...</p>
-                        </div>
-                    </article>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h4>Our Store</h4>
+                        <p><strong>Address:</strong> 123 Fashion Street, Peshawar, Pakistan</p>
+                        <p><strong>Phone:</strong> +92 342 0990 948</p>
+                        <p><strong>Email:</strong> support@zylofashion.com</p>
+                        <h5>Follow Us</h5>
+                        <a href="#" class="btn btn-custom btn-sm me-2">Facebook</a>
+                        <a href="#" class="btn btn-custom btn-sm me-2">Instagram</a>
+                        <a href="#" class="btn btn-custom btn-sm">Twitter</a>
+                    </div>
                 </div>
             </div>
         </div>
