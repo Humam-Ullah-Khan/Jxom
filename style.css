@@ -659,7 +659,7 @@ a {
 ------------------------------------------------------------- */
 .icon-arrow {
   position: absolute;
-  top: 30%;
+  top: 160%;
   font-size: 2em;
   color: var(--dark-color);
   z-index: 8;
@@ -691,10 +691,10 @@ a {
 
   .icon-arrow.icon-arrow-left,
   .icon-arrow.icon-arrow-right {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     opacity: 4;
-    top: 35%;
+    top: 118%;
     border: 1px solid #848484;
   }
 
