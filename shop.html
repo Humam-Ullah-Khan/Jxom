@@ -107,16 +107,10 @@
           id="calendar"
           viewBox="0 0 24 24"
         >
-          <g
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-          >
-            <rect width="20" height="18" x="2" y="4" rx="4" />
-            <path d="M8 2v4m8-4v4M2 10h20" />
-          </g>
+          <path
+            fill="currentColor"
+            d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"
+          />
         </symbol>
         <symbol
           xmlns="http://www.w3.org/2000/svg"
@@ -223,16 +217,6 @@
           <path
             fill="currentColor"
             d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z"
-          />
-        </symbol>
-        <symbol
-          xmlns="http://www.w3.org/2000/svg"
-          id="calendar"
-          viewBox="0 0 24 24"
-        >
-          <path
-            fill="currentColor"
-            d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"
           />
         </symbol>
         <symbol
@@ -458,7 +442,10 @@
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center w-100">
           <div class="col-auto d-flex align-items-center">
-            <a class="navbar-brand" href="index.html"><h2>JXOM</h2></a>
+            <a class="navbar-brand" href="index.html">
+              <!-- <h2>JXOM</h2> -->
+              <img src="./images/Logo.png" alt="" width="180" height="100">
+            </a>
           </div>
           <div class="col-auto">
             <button
@@ -542,7 +529,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="search-box" class="mx-2">
+              <li class="search-box mx-2">
                 <a href="#search" class="search-button">
                   <svg width="24" height="24" viewBox="0 0 24 24">
                     <use xlink:href="#search"></use>
@@ -568,7 +555,7 @@
         </div>
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 1 -->
+            <!-- Product 1 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -588,6 +575,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Dhanak Full Heavy EMB 3 Piece Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-001</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -595,7 +583,7 @@
                       ><span class="fw-medium">Rs. 4,380.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Dhanak Full Heavy EMB 3 Piece Suit priced at Rs. 4,380.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Dhanak%20Full%20Heavy%20EMB%203%20Piece%20Suit%20(Code:%20JXOM-001)%20priced%20at%20Rs.%204,380.00.%20Image:%20./images/product-1.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -603,7 +591,7 @@
                 </div>
               </div>
             </div>
-            <!-- product 2 -->
+            <!-- Product 2 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -623,6 +611,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Mystical Georgette Embroidery Sharara Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-002</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -630,7 +619,7 @@
                       ><span class="fw-medium">Rs. 3,030.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Mystical Georgette Embroidery Sharara Suit priced at Rs. 3,030.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Mystical%20Georgette%20Embroidery%20Sharara%20Suit%20(Code:%20JXOM-002)%20priced%20at%20Rs.%203,030.00.%20Image:%20./images/product-2.jpg.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -638,7 +627,7 @@
                 </div>
               </div>
             </div>
-            <!-- product 3 -->
+            <!-- Product 3 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -646,7 +635,7 @@
                     <img
                       src="./images/product-3.webp"
                       alt="product"
-                      class="product-image"
+                      class="product-image img-fluid"
                     />
                   </a>
                   <a href="index.html" class="btn-icon btn-wishlist">
@@ -658,6 +647,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 Piece Unstitched Printed Linen Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-003</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -665,10 +655,8 @@
                       ><span class="fw-medium">Rs. 3,940.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Unstitched Printed Linen Suit priced at Rs. 3,940.00. Please provide more details!"
-                      class="btn btn-primary btn-sm mt-2"
-                      >Order Now</a
-                    >
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Unstitched%20Printed%20Linen%20Suit%20(Code:%20JXOM-003)%20priced%20at%20Rs.%203,940.00.%20Image:%20./images/product-3.webp.%20Please%20provide%20more%20details!"
+                      class="btn btn-primary btn-sm mt-2">Order Now</a>
                   </div>
                 </div>
               </div>
@@ -690,12 +678,13 @@
     </section>
 
     <section
+      id="related-products-2"
       class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
     >
       <div class="container">
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 4 -->
+            <!-- Product 4 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -715,6 +704,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Dhanak 3 PIECE Embroidered With Dhanak Shawl
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-004</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -722,7 +712,7 @@
                       ><span class="fw-medium">Rs. 4,330.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Dhanak 3 PIECE Embroidered With Dhanak Shawl priced at Rs. 4,330.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Dhanak%203%20PIECE%20Embroidered%20With%20Dhanak%20Shawl%20(Code:%20JXOM-004)%20priced%20at%20Rs.%204,330.00.%20Image:%20./images/product-4.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -730,7 +720,7 @@
                 </div>
               </div>
             </div>
-            <!-- product 5 -->
+            <!-- Product 5 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -750,6 +740,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 Piece - Unstitched Digital Printed Khaddar Fabric
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-005</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -757,7 +748,7 @@
                       ><span class="fw-medium">Rs. 3,190.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece - Unstitched Digital Printed Khaddar Fabric priced at Rs. 3,190.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20-%20Unstitched%20Digital%20Printed%20Khaddar%20Fabric%20(Code:%20JXOM-005)%20priced%20at%20Rs.%203,190.00.%20Image:%20./images/product-5.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -765,7 +756,7 @@
                 </div>
               </div>
             </div>
-            <!-- product 6 -->
+            <!-- Product 6 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -785,6 +776,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 Piece Unstitched Sunshine Premium Lawn
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-006</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -792,7 +784,7 @@
                       ><span class="fw-medium">Rs. 3,240.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Unstitched Sunshine Premium Lawn priced at Rs. 3,240.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Unstitched%20Sunshine%20Premium%20Lawn%20(Code:%20JXOM-006)%20priced%20at%20Rs.%203,240.00.%20Image:%20./images/product-6.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -817,12 +809,13 @@
     </section>
 
     <section
+      id="related-products-3"
       class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
     >
       <div class="container">
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 7 -->
+            <!-- Product 7 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -842,6 +835,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Chiffon Suits - Luxurious Elegance in Ethnic Fashion
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-007</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -849,7 +843,7 @@
                       ><span class="fw-medium">Rs. 3,230.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Chiffon Suits - Luxurious Elegance in Ethnic Fashion priced at Rs. 3,230.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Chiffon%20Suits%20-%20Luxurious%20Elegance%20in%20Ethnic%20Fashion%20(Code:%20JXOM-007)%20priced%20at%20Rs.%203,230.00.%20Image:%20./images/product-7.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -877,6 +871,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3PC DHANAK EMBROIDERED WITH COUTURE WOOL PRINT SHAWL
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-008</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -884,7 +879,7 @@
                       ><span class="fw-medium">Rs. 3,340.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3PC DHANAK EMBROIDERED WITH COUTURE WOOL PRINT SHAWL priced at Rs. 3,340.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203PC%20DHANAK%20EMBROIDERED%20WITH%20COUTURE%20WOOL%20PRINT%20SHAWL%20(Code:%20JXOM-008)%20priced%20at%20Rs.%203,340.00.%20Image:%20./images/product-8.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -912,6 +907,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 PIECE Khaddar Embroidered Suit with Printed Wool Shawl
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-009</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -919,7 +915,7 @@
                       ><span class="fw-medium">Rs. 3,640.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 PIECE Khaddar Embroidered Suit with Printed Wool Shawl priced at Rs. 3,640.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20PIECE%20Khaddar%20Embroidered%20Suit%20with%20Printed%20Wool%20Shawl%20(Code:%20JXOM-009)%20priced%20at%20Rs.%203,640.00.%20Image:%20./images/product-9.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -944,12 +940,13 @@
     </section>
 
     <section
+      id="related-products-4"
       class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
     >
       <div class="container">
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 10 -->
+            <!-- Product 10 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -969,6 +966,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Stunning Maroon Chikankari Embroidered Lawn Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-010</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -976,7 +974,7 @@
                       ><span class="fw-medium">Rs. 3,890.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Stunning Maroon Chikankari Embroidered Lawn Suit priced at Rs. 3,890.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Stunning%20Maroon%20Chikankari%20Embroidered%20Lawn%20Suit%20(Code:%20JXOM-010)%20priced%20at%20Rs.%203,890.00.%20Image:%20./images/product-10.jpg.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1004,6 +1002,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 Piece Unstitched Heavy Embroidered Dhanak Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-011</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -1011,7 +1010,7 @@
                       ><span class="fw-medium">Rs. 3,490.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Unstitched Heavy Embroidered Dhanak Suit priced at Rs. 3,490.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Unstitched%20Heavy%20Embroidered%20Dhanak%20Suit%20(Code:%20JXOM-011)%20priced%20at%20Rs.%203,490.00.%20Image:%20./images/product-11.jpg.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1032,13 +1031,14 @@
                   </a>
                   <a href="shop.html" class="btn-icon btn-wishlist">
                     <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="# heart"></use>
+                      <use xlink:href="#heart"></use>
                     </svg>
                   </a>
                   <div class="product-content">
                     <h5 class="text-uppercase fs-5 mt-3">
                       Embroidered Dhanak 3 PIECE with Whool Printed Shawal
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-012</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -1046,7 +1046,7 @@
                       ><span class="fw-medium">Rs. 3,740.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Embroidered Dhanak 3 PIECE with Whool Printed Shawal priced at Rs. 3,740.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Embroidered%20Dhanak%203%20PIECE%20with%20Whool%20Printed%20Shawal%20(Code:%20JXOM-012)%20priced%20at%20Rs.%203,740.00.%20Image:%20./images/product-12.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1071,12 +1071,13 @@
     </section>
 
     <section
+      id="related-products-5"
       class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
     >
       <div class="container">
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 13 -->
+            <!-- Product 13 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
@@ -1096,6 +1097,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       DHANAK 3 PIECE EMBROIDERED WITH PASHMINA WOOL SHAWL
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-013</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -1103,7 +1105,7 @@
                       ><span class="fw-medium">Rs. 3,090.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in DHANAK 3 PIECE EMBROIDERED WITH PASHMINA WOOL SHAWL priced at Rs. 3,090.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20DHANAK%203%20PIECE%20EMBROIDERED%20WITH%20PASHMINA%20WOOL%20SHAWL%20(Code:%20JXOM-013)%20priced%20at%20Rs.%203,090.00.%20Image:%20./images/product-13.jpg.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1131,6 +1133,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       Maria.B - 3 PIECE Unstitched Embroidered Dhanak Suit
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-014</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -1138,7 +1141,7 @@
                       ><span class="fw-medium">Rs. 3,490.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Maria.B - 3 PIECE Unstitched Embroidered Dhanak Suit priced at Rs. 3,490.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Maria.B%20-%203%20PIECE%20Unstitched%20Embroidered%20Dhanak%20Suit%20(Code:%20JXOM-014)%20priced%20at%20Rs.%203,490.00.%20Image:%20./images/product-14.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1166,6 +1169,7 @@
                     <h5 class="text-uppercase fs-5 mt-3">
                       3 Piece Stylish Orange Karandi Suit with Digital print
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-015</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
@@ -1173,7 +1177,7 @@
                       ><span class="fw-medium">Rs. 3,740.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Stylish Orange Karandi Suit with Digital print priced at Rs. 3,740.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Stylish%20Orange%20Karandi%20Suit%20with%20Digital%20print%20(Code:%20JXOM-015)%20priced%20at%20Rs.%203,740.00.%20Image:%20./images/product-15.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1198,18 +1202,19 @@
     </section>
 
     <section
+      id="related-products-6"
       class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
     >
       <div class="container">
         <div class="swiper product-swiper open-up" data-aos="zoom-out">
           <div class="swiper-wrapper d-flex">
-            <!-- product 16 -->
+            <!-- Product 16 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
-                  <a href="./images/product-16.jpg">
+                  <a href="./images/product-16.webp">
                     <img
-                      src="./images/product-16.jpg"
+                      src="./images/product-16.webp"
                       alt="product"
                       class="product-image img-fluid"
                     />
@@ -1221,16 +1226,17 @@
                   </a>
                   <div class="product-content">
                     <h5 class="text-uppercase fs-5 mt-3">
-                      Bareeze Women's Karandi Embroidered Shawl
+                      3 Piece Embroidered Lawn Suit with Chiffon Dupatta
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-016</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
                       data-after="Add to cart"
-                      ><span class="fw-medium">Rs. 3,540.00</span></a
+                      ><span class="fw-medium">Rs. 3,990.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in Bareeze Women's Karandi Embroidered Shawl priced at Rs. 3,540.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Embroidered%20Lawn%20Suit%20with%20Chiffon%20Dupatta%20(Code:%20JXOM-016)%20priced%20at%20Rs.%203,990.00.%20Image:%20./images/product-16.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1242,44 +1248,9 @@
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
-                  <a href="./images/product-17(2).webp">
+                  <a href="./images/product-17.webp">
                     <img
                       src="./images/product-17.webp"
-                      alt="product"
-                      class="product-image img-fluid"
-                    />
-                  </a>
-                  <a href="index.html" class="btn-icon btn-wishlist">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <use xlink:href="#heart"></use>
-                    </svg>
-                  </a>
-                  <div class="product-content">
-                    <h5 class="text-uppercase fs-5 mt-3">
-                      3 PIECE Women's Unstitched Embroidered Suit
-                    </h5>
-                    <a
-                      href="shop.html"
-                      class="text-decoration-none"
-                      data-after="Add to cart"
-                      ><span class="fw-medium">Rs. 3,490.00</span></a
-                    >
-                    <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 PIECE Women's Unstitched Embroidered Suit priced at Rs. 3,490.00. Please provide more details!"
-                      class="btn btn-primary btn-sm mt-2"
-                      >Order Now</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Product 18 -->
-            <div class="swiper-slide">
-              <div class="product-item link-effect">
-                <div class="image-holder">
-                  <a href="./images/product-18(2).jpg">
-                    <img
-                      src="./images/product-18.jpg"
                       alt="product"
                       class="product-image img-fluid"
                     />
@@ -1291,16 +1262,17 @@
                   </a>
                   <div class="product-content">
                     <h5 class="text-uppercase fs-5 mt-3">
-                      3 Piece Stylish Orange Karandi Suit with Digital print
+                      Unstitched 3 Piece Karandi Suit with Wool Shawl
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-017</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
                       data-after="Add to cart"
-                      ><span class="fw-medium">Rs. 4,490.00</span></a
+                      ><span class="fw-medium">Rs. 3,290.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Stylish Orange Karandi Suit with Digital print priced at Rs. 4,490.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Unstitched%203%20Piece%20Karandi%20Suit%20with%20Wool%20Shawl%20(Code:%20JXOM-017)%20priced%20at%20Rs.%203,290.00.%20Image:%20./images/product-17.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1308,33 +1280,47 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-        <div class="icon-arrow icon-arrow-left">
-          <svg width="50" height="50" viewBox="0 0 24 24">
-            <use xlink:href="#arrow-left"></use>
-          </svg>
-        </div>
-        <div class="icon-arrow icon-arrow-right">
-          <svg width="50" height="50" viewBox="0 0 15 15">
-            <use xlink:href="#arrow-right"></use>
-          </svg>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="related-products bg-light product-carousel py-3 position-relative overflow-hidden"
-    >
-      <div class="container">
-        <div class="swiper product-swiper open-up" data-aos="zoom-out">
-          <div class="swiper-wrapper d-flex">
-            <!-- product 19 -->
+            <!-- Product 18 -->
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
-                  <a href="./images/product-19(2).webp">
+                  <a href="./images/product-18.webp">
+                    <img
+                      src="./images/product-18.webp"
+                      alt="product"
+                      class="product-image img-fluid"
+                    />
+                  </a>
+                  <a href="shop.html" class="btn-icon btn-wishlist">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                      <use xlink:href="#heart"></use>
+                    </svg>
+                  </a>
+                  <div class="product-content">
+                    <h5 class="text-uppercase fs-5 mt-3">
+                      Digital Printed Khaddar 3 Piece Suit
+                    </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-018</p>
+                    <a
+                      href="shop.html"
+                      class="text-decoration-none"
+                      data-after="Add to cart"
+                      ><span class="fw-medium">Rs. 3,540.00</span></a
+                    >
+                    <a
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Digital%20Printed%20Khaddar%203%20Piece%20Suit%20(Code:%20JXOM-018)%20priced%20at%20Rs.%203,540.00.%20Image:%20./images/product-18.webp.%20Please%20provide%20more%20details!"
+                      class="btn btn-primary btn-sm mt-2"
+                      >Order Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 19 -->
+            <div class="swiper-slide">
+              <div class="product-item link-effect">
+                <div class="image-holder">
+                  <a href="./images/product-19.webp">
                     <img
                       src="./images/product-19.webp"
                       alt="product"
@@ -1348,16 +1334,17 @@
                   </a>
                   <div class="product-content">
                     <h5 class="text-uppercase fs-5 mt-3">
-                      3 Piece Women's Unstitched Dhanak Embroidered Suit
+                      Embroidered Chiffon Suit with Net Dupatta
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-019</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
                       data-after="Add to cart"
-                      ><span class="fw-medium">Rs. 3,440.00</span></a
+                      ><span class="fw-medium">Rs. 4,150.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Women's Unstitched Dhanak Embroidered Suit priced at Rs. 3,440.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%20Embroidered%20Chiffon%20Suit%20with%20Net%20Dupatta%20(Code:%20JXOM-019)%20priced%20at%20Rs.%204,150.00.%20Image:%20./images/product-19.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1369,7 +1356,7 @@
             <div class="swiper-slide">
               <div class="product-item link-effect">
                 <div class="image-holder">
-                  <a href="./images/product-20(2).jpg">
+                  <a href="./images/product-20.webp">
                     <img
                       src="./images/product-20.webp"
                       alt="product"
@@ -1383,16 +1370,17 @@
                   </a>
                   <div class="product-content">
                     <h5 class="text-uppercase fs-5 mt-3">
-                      3 Piece Women's Unstitched Chiffon Embroidered Suit
+                      3 Piece Unstitched Velvet Suit with Embroidered Shawl
                     </h5>
+                    <p class="fs-6 text-muted">Code: JXOM-020</p>
                     <a
                       href="shop.html"
                       class="text-decoration-none"
                       data-after="Add to cart"
-                      ><span class="fw-medium">Rs. 3,390.00</span></a
+                      ><span class="fw-medium">Rs. 4,890.00</span></a
                     >
                     <a
-                      href="https://wa.me/+923420990948?text=I'm interested in 3 Piece Women's Unstitched Chiffon Embroidered Suit priced at Rs. 3,390.00. Please provide more details!"
+                      href="https://wa.me/+923420990948?text=I'm%20interested%20in%203%20Piece%20Unstitched%20Velvet%20Suit%20with%20Embroidered%20Shawl%20(Code:%20JXOM-020)%20priced%20at%20Rs.%204,890.00.%20Image:%20./images/product-20.webp.%20Please%20provide%20more%20details!"
                       class="btn btn-primary btn-sm mt-2"
                       >Order Now</a
                     >
@@ -1417,72 +1405,78 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-5">
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-4">
-            <h3 class="h4">JXOM</h3>
-            <p>
-              Your one-stop shop for premium ethnic fashion. Explore our curated
-              collection of unstitched suits and embroidered fabrics.
-            </p>
+          <div class="col-md-4">
+            <div class="footer-logo mb-3">
+              <h2 class="text-uppercase">JXOM</h2>
+              <p class="mt-3 mb-4">
+                Your one-stop shop for elegant and stylish fashion. Discover the
+                latest trends and timeless classics.
+              </p>
+              <ul class="social-links list-unstyled d-flex gap-2">
+                <li>
+                  <a href="#" class="text-decoration-none"
+                    ><svg width="24" height="24" viewBox="0 0 15 15">
+                      <use xlink:href="#facebook"></use></svg></a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none"
+                    ><svg width="24" height="24" viewBox="0 0 15 15">
+                      <use xlink:href="#twitter"></use></svg></a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none"  ><svg width="24" height="24" viewBox="0 0 15 15">
+                      <use xlink:href="#instagram"></use></svg></a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none"  ><svg width="24" height="24" viewBox="0 0 15 15">
+                      <use xlink:href="#pinterest"></use></svg></a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <h4 class="h5">Quick Links</h4>
-            <ul class="list-unstyled">
+          <div class="col-md-4">
+            <h5 class="text-uppercase mb-3">Quick Links</h5>
+            <ul class="footer-links list-unstyled">
               <li>
-                <a href="./index.html" class="text-white text-decoration-none"
-                  >Home</a
-                >
+                <a href="./index.html" class="text-decoration-none">Home</a>
               </li>
               <li>
-                <a href="./shop.html" class="text-white text-decoration-none"
-                  >Shop</a
-                >
+                <a href="./shop.html" class="text-decoration-none">Shop</a>
               </li>
               <li>
-                <a href="./blog.html" class="text-white text-decoration-none"
-                  >Blog</a
-                >
+                <a href="./blog.html" class="text-decoration-none">Blog</a>
               </li>
               <li>
-                <a href="./contact.html" class="text-white text-decoration-none"
-                  >Contact</a
-                >
+                <a href="./contact.html" class="text-decoration-none"
+                  >Contact</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4 mb-4">
-            <h4 class="h5">Contact Us</h4>
-            <p>Email: support@jxom.com</p>
-            <p>Phone: +92 342 0990948</p>
-            <ul class="list-unstyled d-flex gap-3">
+          <div class="col-md-4">
+            <h5 class="text-uppercase mb-3">Contact Us</h5>
+            <ul class="contact-info list-unstyled">
               <li>
-                <a href="#" class="text-white">
-                  <svg width="24" height="24" viewBox="0 0 15 15">
-                    <use xlink:href="#facebook"></use>
-                  </svg>
-                </a>
+                <p><strong>Phone:</strong> +92 342 0990948</p>
               </li>
               <li>
-                <a href="#" class="text-white">
-                  <svg width="24" height="24" viewBox="0 0 15 15">
-                    <use xlink:href="#instagram"></use>
-                  </svg>
-                </a>
+                <p><strong>Email:</strong> support@jxom.com</p>
               </li>
               <li>
-                <a href="#" class="text-white">
-                  <svg width="24" height="24" viewBox="0 0 15 15">
-                    <use xlink:href="#twitter"></use>
-                  </svg>
-                </a>
+                <p>
+                  <strong>Address:</strong> 123 Fashion Street, Karachi,
+                  Pakistan
+                </p>
               </li>
             </ul>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <p class="mb-0">&copy; 2025 JXOM. All rights reserved.</p>
+        <div class="row">
+          <div class="col-12 text-center mt-4">
+            <p class="mb-0">&copy; 2025 JXOM. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
@@ -1494,8 +1488,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/script.min.js"></script>
   </body>
